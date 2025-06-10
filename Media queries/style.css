@@ -1,0 +1,23 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+@media(width:600px) {
+  div{
+   background-color: red;  /* website er inspect theke jodi 600 px kora hoy taile background color red hobe...eita mobile e website browse korle kmn hobe ta dekhar jonno ...
+   
+   abar @media(min-width: ) or @media(max-width:) eikhane ja lekha hobe tar theke besi or kom hoilei background color change hobe*/
+  }
+}
+@media(min-width:600px){
+    div{
+        background-color: green;
+    }
+}
+@media(min-width:200px) and (max-width:300px)
+{
+    div{
+        background-color: blue;
+    }
+}

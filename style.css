@@ -1,0 +1,31 @@
+
+/* h1{
+    color: rgb(0, 225, 255);
+}
+p{
+    color: black;
+}
+button{
+    background-color: aquamarine;
+    color: rgb(12, 12, 227);
+}
+body{
+    background-color:#ffff00;
+} */
+
+*{
+    color: rgb(177, 98, 2); /*universal..sob same...but er baire kisu korle oita onno rkm hbe  */
+}
+/*h1{
+    color: green;  .....eita diye h1 er vitre sob same color hbe..er jonno id use kore specific kore kora jay
+}
+*/
+#heading1{
+    color: green;
+}
+#heading2{
+    color: chocolate;
+}
+.myclass{
+    color: red;    /*multiple line e same color dawar jonno id er bodle class use korte hoy*/
+}

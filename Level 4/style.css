@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;/*by default row thake...er mane hoilo left theke right...row-reversed mane right theke left..column mane upor theke niche ..column-reversed mane nich theke upor*/
+    justify-content: space-evenly;/*flex-start e by default ja thake tai..flex-end hoilo direction same e thakbe just right theke left e jabe..center mane maje thakbe..space-arround e content left theke right e jabe but maje space create hobe..space between e oo space create hoy but eikhane border line left right 2 sight e akbare lege jay..space evenly mane hoilo sob jaygay same space*/
+    flex-wrap:wrap;
+    align-items: center;
+    align-content: flex-start;
+
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: pink;
+    height: 200px;
+    flex-grow:1;
+}
+#box3{
+    background-color: darkgoldenrod;
+    height: 75px;
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: slateblue;
+    align-self: flex-end;
+}
+ 

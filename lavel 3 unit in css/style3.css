@@ -1,0 +1,12 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    background-image: url("tiger.jpg");
+    background-size: cover; /*contain, auto oo use kora jay...but cover e best */
+}

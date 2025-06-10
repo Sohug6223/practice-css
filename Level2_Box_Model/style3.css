@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+   /* border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    */
+    border: 2px solid brown; /*ei line e shortcut e uporer 3 ta element lekha hoise...eitake border shorthand bole */
+    text-align:left;
+     /*border-radius: 50%;50% hoile circle*/
+     padding-left: 25px;
+     padding-bottom: 25px;
+     /*padding:50px;...eita likle top,right,bottom,left..sob jaygay e same 50 px jabe...abr
+
+     padding:1px 2px 3px 4px;likle top 1,right 2,bottom 3, left 4..eivabe jabe */
+     margin: 2px; /*margin : 50px;..margin:1px,2px,3px,4px;*/
+}
+h1{
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: black;
+    text-align: center;
+}

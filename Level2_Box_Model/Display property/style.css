@@ -1,0 +1,17 @@
+div{
+   /* background-color: yellow;
+    display: inline; /*div block level element..pura page niye kaj kore...r button inline element..or joto  tuku jayga lagbe oita niyei kaj korbe....div re inline element korte hoile display:inline dilei hobe; */
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+button{
+    display: block;
+}
+#none{
+    display: none; /*display none mane hoilo oi element remove kra ..eikhane box 2 remove hoiya gase
+    
+    abar visibility:hidden; eitao display none er moto kaj kore..kintu display none e jeita remove hoy oitar jaygay porer ta ase...but visibility : hidden e jeita remove kora hoy oikhane jayga faka thake...sudu element dekha jay na*/
+}

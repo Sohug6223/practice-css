@@ -1,0 +1,28 @@
+.navbar{
+    background-color:black;
+    display: flex;
+    justify-content:space-evenly;
+}
+a{
+    text-decoration: none;
+    color:white;
+    background-color: brown;
+    
+}
+li{
+    list-style-type: none;
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* eikhane inner er vitkre allign self lekle eitar piroty beshi..eitai apply hobe jodio css e jeita pore lekha hoy oita apply hoy but eitar khetre ta hobe na*/
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+
+}

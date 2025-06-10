@@ -1,0 +1,33 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color:aqua ;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    position: static; /*..position static mane hoilo by :default..eitar jonno top, bottom kisui kaj korbe na */
+    
+}
+#box2{
+    position: relative;
+    top: -20px;  /*position relative hoile top,bottom,right,left..sob e kaj korbe */
+    left: 10px;
+    z-index: 1;
+
+}
+#box3{
+
+    position:sticky; /*sticky hoile jhn oi position e jay tkn theke oi box or something position onujay top or anywhre jay...r absoulate hoile oita 1st thekei kore*/
+    top:0px; /*absolute hoile porer ta ager tar vitre jay...top diye amra move kore easily bujte pari*/
+    left: 20px;
+    z-index: -3; /*negative positive kore age pise kore*/
+}
+#box4{
+    position: fixed;
+   /* right: 10px;
+    bottom: 0; ...0 hoile footer er moto kaj kore 
+    width:100vw;
+    */
+    top:0;
+}

@@ -1,0 +1,44 @@
+p{
+    text-align: left;
+}
+h1{
+    text-align: center;
+    text-decoration: red underline;
+    font-weight: 100;
+    
+}
+a{
+    text-decoration: none; /* autometic underline thake..eita na chaile text decoration e none leklei ho be*/
+}
+#h2{
+    text-align: left;
+    font-weight:350;
+    text-decoration: none;
+}
+#h3{
+    text-align: left;
+    font-weight: 550;
+    text-decoration: none;
+}
+#h4{
+    text-align: left;
+    font-weight:900;
+    text-decoration: none;
+}
+#one{
+    font-family: arial;
+}
+#two{
+    font-family: 'Segoe UI';
+}
+#three{
+font-size: 25px;
+line-height: 50px;
+text-transform: capitalize;
+}
+#four{
+font-size: 15px;
+}
+#five{
+    font-size: 10px;
+}
